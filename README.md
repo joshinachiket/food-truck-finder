@@ -2,7 +2,7 @@
 Redfin Take Home Coding Challenge
 ## Overview
 
-The goal of this is to write a simple command-line program that will print out a list of food trucks,
+The goal of this is to write a simple command-line JavaScript program that will print out a list of food trucks,
 given a source of food truck data from the San Francisco government’s API.
 
 ## The Task
@@ -24,3 +24,20 @@ NAME                  ADDRESS
 Mang Hang Catering    1 Thomas More Way
 Steve’s Mobile Deli   145 King Street
 ```
+## Steps to use this program
+
+- make sure you have working version of node installed
+  - use ` node -v` to check the version
+  - If you have node not installed please install it.
+  
+- The API usage is quantified and thus you will need to get the token for heavy usage from API website [here](https://dev.socrata.com/docs/app-tokens.html)
+
+- git clone this repository
+
+- make sure you have sudo rights on your machine
+
+- go to the project directory and run `npm link`
+
+- use the command `show-open-food-trucks` from anywhere in the terminal, you will find result on the terminal.
+  - the displayed result has pagination involved and thus you will see 10 records in alphabetical order, press any button to fetch next 10 records.
+  - repeat till last record is displayed
