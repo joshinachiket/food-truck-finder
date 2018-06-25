@@ -1,0 +1,14 @@
+{
+  "name": "redfin-takehome-showopenfoodtrucks",
+  "version": "1.0.0",
+  "description": "app to find food truck online at current time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nachiket Joshi",
+  "license": "ISC",
+  "bin": {
+    "show-open-food-trucks": "./index.js"
+  }
+}
