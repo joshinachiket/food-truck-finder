@@ -7,7 +7,7 @@ var APP_TOKEN = 'wsQXg21sDdnXnIxoH5jVeY8N1';
 
 var self = module.exports = {
   getFoodTrucks: function(offset) {
-    console.log('fetching data for offset:' + offset + ' and limit:' + limit);
+    // console.log('fetching data for offset:' + offset + ' and limit:' + limit);
 
     if (sysdate.hour < 9) {
       sysdate.hour = '0' + sysdate.hour;
@@ -18,8 +18,8 @@ var self = module.exports = {
     }
     var cur_time = sysdate.hour + ":" + sysdate.minutes;
     // cur_time = "08:00";
-    console.log(cur_time);
-    console.log(sysdate.day);
+    //console.log(cur_time);
+    //console.log(sysdate.day);
 
     var optionsget = {
       host: 'data.sfgov.org',
