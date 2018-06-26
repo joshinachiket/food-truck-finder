@@ -48,3 +48,7 @@ Steve’s Mobile Deli   145 King Street
 - Please upgrade your node and npm as well to the latest version from their websites
 - you can also try this command as well to upgrade your node `npm-windows-upgrade` or `npm i -g npm`. Please visit their website for more information
 - Ideally the node version should be v8.9.4 ore better
+
+## Potential Modification
+- We can modify this CMD script in such a way that it can accpt any time instead of systime, and we can produce the result of open food trucks at that time.
+- we can extend command pool to include `open $FOOD_TRUCK_NAME` and then can redirect to vendor website.
